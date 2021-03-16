@@ -1,0 +1,96 @@
+/* Navbar Centered */
+/* https://codepen.io/teconce/pen/NRVwrV */
+
+.navbar-brand-center {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-center, 
+.navbar>.container-fluid .navbar-brand-center {
+    margin-left: -80px;
+}
+
+/* Card */
+.col-md {
+    margin: 16px 0;
+}
+.card-glass {
+    padding: 10px;
+    background: transparent;
+    box-shadow: 0 3px 10px 0 rgba(189, 189, 189, 0.37);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    margin: 50px;
+}
+.fa-linkedin {
+    color: gray;
+}
+
+/* Tabbar */
+.bg-glass,
+.fluidbox__overlay {
+  background: rgba(244, 244, 244, .9)
+}
+
+@supports(-webkit-backdrop-filter:none) or (backdrop-filter:none) {
+  .bg-glass,
+  .fluidbox__overlay {
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background: rgba(244, 244, 244, .8)
+  }
+}
+
+nav.tabbar .container-fluid {
+  padding: 0
+}
+
+nav.tabbar a {
+  display: inline-block;
+  font-size: .5em;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  width: 100%;
+  color: gray;
+}
+
+nav.tabbar a:hover {
+  color: black;
+  background: lightgray;
+}
+
+nav.tabbar a i.fad,
+nav.tabbar a i.fal {
+  display: block;
+  font-size: 2.5em;
+  min-height: 20px;
+}
+
+.tabbar .active {
+  background: linear-gradient(-45deg, #fff, #000);
+  color: #000;
+  opacity: 0.6;
+}
+
+.navbar .active .nav-link {
+  font-weight: 700;
+  color: blue;
+}
+
+/* About - Image */
+.img-about {
+    position: relative;
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+  }
