@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div>
+    {% include navbar.html %}
+    <div class="row" style="margin-top: 100px">
+        <nav aria-label="breadcrumb" class="breadcrumb-container">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                  <a href="{{ site.baseurl }}/index.html">Home</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="{{ site.baseurl }}/pages/portfolio.html">Portfolio</a>
+              </li>
+              <li class="breadcrumb-item" aria-current="page">
+                {{ posts.title }}
+            </li>
+          </ol>
+        </nav>
+    </div>
+    <div style="margin-top: -40px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <!-- CONTENT -->
+                    <h3 class="text-center">University Tasks Design</h3>
+
+                    <div>
+                        <p class="text-page">
+                        This is the design i make when still in uni:
+                        </p>
+                        
+                        <img  class="img-page" src="{{ site.baseurl }}/../../img/portfolio/uni/agresif/poster.png"/>
+                        <p class="text-page">
+                        This is Aggresion Poster. I make this poster for elementary school stundents with hope to prevent any aggresion that will occur at school.
+                        </p>
+                        
+                        <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/uni/betawi/poster.png"/>
+                        <p class="text-page">
+                        This posters is assignment of cultural diversity in Indonesia. I use it for Cultural Psychology task to be presented for other cultural learning activites in the classroom.
+                        </p>
+                        
+                        <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/uni/mata/poster.png"/>
+                        <p class="text-page">
+                        This perfectionistme poster is the result on perfectionisme behavior research that occur on women when drawing eyebrows.
+                        </p>
+                        
+                        <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/uni/jantung/poster-mu.png"/>
+                        <p class="text-page">
+                        This poster we (i work as a team) use for campaigning the dangers of coronary heart disease to thegeneral public outside the class concerned
+                        </p>
+                    
+                    </div>                   
+                <!--  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include scripts.html %}
+    {% include footer.html %}
+</div>

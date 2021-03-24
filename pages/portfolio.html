@@ -1,0 +1,29 @@
+--- 
+layout: default 
+---
+
+<div>
+    {% include navbar.html %}
+    <div class="container">
+        <div class="row" style="margin-top: 100px">
+            <nav aria-label="breadcrumb" class="breadcrumb-container">
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                      <a href="{{ site.baseurl }}">Home</a>
+                  </li>
+                  <li class="breadcrumb-item" aria-current="page">
+                      Portfolio
+                  </li>
+              </ol>
+            </nav>
+          </div>
+          <div class="row" style="margin: -30px; margin-bottom:80px;">
+            <div class="col text-center">
+              <h3>All My Portfolio</h3>
+            </div>
+          </div>
+    </div>
+    {% include portfolio.html %}
+    {% include scripts.html %}
+    {% include footer.html %}
+</div>

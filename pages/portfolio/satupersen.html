@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div>
+        {% include navbar.html %}
+        <div class="row" style="margin-top: 100px">
+            <nav aria-label="breadcrumb" class="breadcrumb-container">
+              <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                      <a href="{{ site.baseurl }}/index.html">Home</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="{{ site.baseurl }}/pages/portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="breadcrumb-item" aria-current="page">
+                    {{ posts.title }}
+                </li>
+              </ol>
+            </nav>
+        </div>
+        <div style="margin-top: -40px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!-- CONTENT -->
+                        <img src="{{ site.baseurl }}/../../img/portfolio/satupersen/logo.png" class="img-page">
+
+                        ##### Role:
+                        ##### Project:
+                        ##### Date:
+                        ##### Tools:
+
+                        <div class="row text-page">
+                            <p>The jobs I usually do in the <a class="underline-link" href="https://www.satupersen.net/" target="_blank"><b>Satu Persen</b><i class="fas fa-link text-muted"></i></a> include illustration and graphic design.</p>
+
+                            <p>Broadly speaking, there are 2 things
+                            namely on Instagram post and story, linkedin post, Facebook post, YouTube post. and design and illustration on Satu Persen of the YouTube podcast & spotify anchor</p>
+                            <div class="col-md">
+                                <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/satupersen/anchor.png"/>
+                            </div>
+                            <div class="col-md">
+                                <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/satupersen/yt_thumbnail.png"/>
+                            </div>
+                            <div class="col-md">
+                                <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/satupersen/feed.png"/>
+                            </div>
+                            <div class="col-md">
+                                <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/satupersen/story.png"/>
+
+                            </div>
+                        </div>
+                    <!--  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include scripts.html %}
+        {% include footer.html %}
+</div>

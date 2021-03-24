@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div>
+    {% include navbar.html %}
+    <div class="row" style="margin-top: 100px">
+        <nav aria-label="breadcrumb" class="breadcrumb-container">
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                  <a href="{{ site.baseurl }}/index.html">Home</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="{{ site.baseurl }}/pages/portfolio.html">Portfolio</a>
+              </li>
+              <li class="breadcrumb-item" aria-current="page">
+                {{ posts.title }}
+            </li>
+          </ol>
+        </nav>
+    </div>
+    <div style="margin-top: -40px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                <!-- CONTENT -->
+                    <h3 class="text-center">Client (Freelance Work) </h3>
+
+                    <p class="text-page">
+                    This is the design i do for freelance work:
+                    </p>
+                
+                    <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/client/wisuda/wisuda-adit.png">
+                    <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/client/wisuda/wisuda-hafiz.png">
+                    <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/client/wisuda/wisuda-amin.png">
+                    <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/client/wisuda/wisuda-iqbal.png">
+                    <p class="text-page">
+                    This is Graduation gift. <br> This design is made to be printed and put into frames. When it is complete, it will be given to the graduates by the orderer.
+                    </p>
+                
+                    <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/client/rumahbelajar/poster.png">
+                    <p class="text-page">
+                    This posters is request from client who want to open tutor programme.
+                    </p>
+                
+                    <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/client/performapuncak/poster-staff-1.png">
+                    <img class="img-page" src="{{ site.baseurl }}/../../img/portfolio/client/performapuncak/poster-staff-2.png">
+                    <p class="text-page">
+                     This two poster is example when i working with training and consultant client.
+                    </p>                   
+                <!--  -->
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include scripts.html %}
+    {% include footer.html %}
+</div>
