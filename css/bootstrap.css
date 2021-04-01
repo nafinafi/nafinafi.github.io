@@ -8,9 +8,11 @@
  Body: Padding, color
  Jumbotron : Margin
  Navbar : padding, @media
- p: justify,
+ p: justify, font-size
  card-title: margin-bottom to margin
  card-body: opacity
+ h: font-family
+ breadcrumb: opacity
 
 
  */
@@ -68,7 +70,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   padding: 0; /**/
-  font-family: 'Poppins', sans-serif;
+  font-family: "Apercu", "Source Sans Pro", 'Playfair Display SC', serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -97,6 +99,12 @@ p {
   margin-bottom: 1rem;
   line-height: 1.6;
   text-align: justify;
+}
+
+@media (min-width: 576px) {
+  p {
+    font-size: 14pt;
+  }
 }
 
 abbr[title],
@@ -372,8 +380,8 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  /* margin-bottom: 0.5rem;
-  font-weight: 500; */
+  /* margin-bottom: 0.5rem; */
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -5033,6 +5041,7 @@ input[type="button"].btn-block {
   /* background-color: #e9ecef; */
   border-radius: 0.25rem;
   align-content: center;
+  opacity: .6;
 }
 
 .breadcrumb-item + .breadcrumb-item {

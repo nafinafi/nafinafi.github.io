@@ -15,6 +15,31 @@
   .margin-50px {
     margin: 50px;
   }
+  /* Font */
+  @font-face {
+    font-family: 'Apercu';
+    src: url('../fonts/apercu/Apercu-Regular.eot');
+    src: url('../fonts/apercu/Apercu-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/apercu/Apercu-Regular.woff2') format('woff2'),
+      url('../fonts/apercu/Apercu-Regular.woff') format('woff'),
+      url('../fonts/apercu/Apercu-Regular.ttf') format('truetype'),
+      url('../fonts/apercu/Apercu-Regular.svg#Apercu-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Apercu';
+    src: url('../fonts/apercu/Apercu-Bold.eot');
+    src: url('../fonts/apercu/Apercu-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/apercu/Apercu-Bold.woff2') format('woff2'),
+      url('../fonts/apercu/Apercu-Bold.woff') format('woff'),
+      url('../fonts/apercu/Apercu-Bold.ttf') format('truetype'),
+      url('../fonts/apercu/Apercu-Bold.svg#Apercu-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+  }
+  /* Night Mode */
+  
 
 
 /* Navbar Centered */
@@ -137,6 +162,10 @@ nav.tabbar a i.fal {
     text-align: center;
     background: 0 0
   }
+  .page-desc {
+    padding: 20px 0;
+    line-height: 2;
+  }
   /* Text */
   .text-page {
     margin-left: 0;
@@ -163,12 +192,12 @@ nav.tabbar a i.fal {
     margin: 16px 0;
   }
   /* Link */
-  .text-page .underline-link {
+  .underline-link {
     position: relative;
     display: inline-block;
   }
   
-  .text-page .underline-link:after {
+  .underline-link:after {
     position: absolute;
     top: 100%;
     left: 0;
@@ -185,7 +214,7 @@ nav.tabbar a i.fal {
             transform: translateY(-5px);
   }
   
-  .text-page .underline-link:hover:after, .text-page .underline-link:focus:after {
+  .underline-link:hover:after, .text-page .underline-link:focus:after {
     height: 2px;
     border-radius: 3px;
     opacity: 1;
