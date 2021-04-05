@@ -12,3 +12,11 @@
 
 // Img
 - perkecil size gambar
+
+-------------
+-- 4 April --
+-------------
+
+- logo diganti dengan huruf n connect
+- perpaduan warna hitam, kuning dan biru, jika kuning nanti ada background hitamnya (dengan mempertimbangkan night mode)
+- djalandjalan sesuai portfolio save di linkedin
