@@ -198,7 +198,7 @@ nav.tabbar a i.fal {
   }
   @media (min-width: 576px) {
     .desc-about {
-      text-align: end !important;
+      text-align: end !important ;
     }
   }
   /* Link */
