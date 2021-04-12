@@ -8,7 +8,8 @@
  Body: Padding, color
  Jumbotron : Margin
  Navbar : padding, @media
- p: justify, font-size
+ p: justify, font-size,
+ p span; display: block;,
  card-title: margin-bottom to margin
  card-body: opacity
  h: font-family
@@ -98,7 +99,7 @@ hr {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   line-height: 1.6;
   text-align: justify;
 }

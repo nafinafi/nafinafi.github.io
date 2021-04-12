@@ -191,6 +191,16 @@ nav.tabbar a i.fal {
     object-fit: cover;
     margin: 16px 0;
   }
+  /* Desc */
+  .desc-about {
+    opacity: .6; 
+    color: var(--teal);
+  }
+  @media (min-width: 576px) {
+    .desc-about {
+      text-align: end !important;
+    }
+  }
   /* Link */
   .underline-link {
     position: relative;
