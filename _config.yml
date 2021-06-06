@@ -3,7 +3,7 @@ title: Nafi | Passionate Designer
 email: annafi_@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hello you there, here is Annafi portfolio site.
-baseurl: "https://nafinafi.com/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "nafinafi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 logo: https://nafinafi.github.io/img/logo.png
 resume: https://nafinafi.github.io/resume.pdf
