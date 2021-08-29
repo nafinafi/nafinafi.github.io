@@ -1,4 +1,15 @@
 /* General */
+  /* Image Border */
+  .img-border {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: 3px solid black;
+  }
   /* Unwanted Right Space */
   html, body {
     overflow-x: hidden;
@@ -133,9 +144,9 @@ nav.tabbar a i.fal {
 }
 
 .tabbar .active {
-  background: linear-gradient(-45deg, #fff, #000);
-  color: #000;
-  opacity: 0.6;
+  background-color: black;
+  color: white;
+  opacity: 0.9;
 }
 
 .navbar .active .nav-link {
@@ -145,7 +156,6 @@ nav.tabbar a i.fal {
 
 /* About - Image */
 .img-about {
-    position: relative;
     width: 100%;
     max-height: 450px;
     object-fit: cover;
